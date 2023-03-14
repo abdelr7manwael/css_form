@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    
+}
+body{
+    background-color: #F7F8F9;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+h1{
+    font-size: 40px;
+    color: #10104D;
+    text-transform: uppercase;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.w-50{
+    width: 49%;
+    margin: auto;
+}
+
+.w-100 {
+    width: 98.7%;
+    margin: auto;
+}
+
+.left
+{
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #878A95;
+    text-decoration: none;
+}
+
+a:hover,
+a.active {
+    color: #D6151F;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+/* ---------------------------------------------------- */
+
+nav{
+    background: #fff;
+    z-index: 999;
+    padding: 15px 0;
+    box-shadow: 0px 0 8px 0 rgba(20, 40, 150, 0.1);
+}
+
+  /**
+  * Get Startet Button 
+  */
+.get-started-btn {
+    display: inline-block;
+    background: #D6151F;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 2px #D6151F;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.get-started-btn:hover {
+    background: #FFF;
+    color: #D6151F;
+}
+nav .logo{
+    float: left;
+}
+
+nav .menu{
+    float: right;
+
+}
+
+nav .menu .menu-list{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav .menu .menu-list li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+
+/* ------- body ------- */
+
+.signup{
+    padding: 40px 0px;
+}
+
+
+.signup .form-parent{
+    margin: 20px auto;
+    padding: 0px 10%;
+}
+
+.signup .form-parent textarea, 
+.signup .form-parent input,
+.signup .form-parent select {
+    background-color: #E4E3E3;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 3px;
+    caret-color: #D6151F;
+}
+
+.signup .form-parent textarea::placeholder,
+.signup .form-parent input::placeholder,
+.signup .form-parent select::placeholder {
+    font-size: 16px;
+    text-transform: capitalize;
+
+
+}
+
+.signup .form-parent textarea:focus,
+.signup .form-parent input:focus {
+    outline: none;
+}
+
+.signup .form-parent select,
+.signup .form-parent input {
+    height: 50px;
+    padding: 5px 15px;
+}
+
+
+.signup .form-parent select {
+    border-right: 15px solid transparent;
+}
+
+.signup .form-parent textarea {
+    height: 200px;
+    resize: vertical;
+    min-height: 100px;
+    padding: 15px 15px;
+}
+/* -------login------------ */
+
+.login-div{
+    padding: 40px 20px !important;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(20, 40, 150, 0.1);
+    width: 35%;
+    background-color: white;
+}
+
+.login-div h1{
+    margin-bottom: 40px;
+}
+
+.login-div button,
+.login-div a{
+    margin: 20px 0px;
+}
